@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 strategy:
   matrix:
-    Python35:
+    Python36:
       PYTHON_VERSION: '3.6'
 
 steps:
